@@ -1,9 +1,9 @@
 .banner {
-    /* background-image: url("../../images/cover.jfif"); */
-    background-image: linear-gradient(to right ,#635dc0 ,#3027ae);
-    /* background-position: center; */
-    /* background-repeat: no-repeat; */
-    /* background-size: cover; */
+    background-image: url("../../images/pexels-hasan-albari-1229861.jpg");
+    /* background-image: linear-gradient(to right ,#635dc0 ,#3027ae); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 100vmin;
     display: flex;
     flex-direction: column;
@@ -90,8 +90,9 @@
     margin: 0.5vmax;
     display: flex;
     justify-content: flex-start;
+    align-items: center;
 }
-.productCard > span{
+.productCardSpan{
     margin: .5vmax;
     font: 300 .7vmax "Roboto";
 }
